@@ -1,0 +1,4 @@
+{
+    "presets": ["@babel/preset-env"],
+    // "modules": false // 預設 commomJs
+}

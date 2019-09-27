@@ -1,0 +1,10 @@
+@import 'mixins';
+
+.highlight {
+    > p {
+        font-size: 24px;        
+        @include respond-to(px480) {
+            color: #000;
+        }
+    }
+}
